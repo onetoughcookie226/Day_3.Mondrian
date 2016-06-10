@@ -1,0 +1,124 @@
+/********************
+paint a Mondrian
+**********************/
+/*Base style
+------------------------------------*/
+body {
+    background-color: lightgray;
+   /* margin-left: auto;
+    margin-right: auto;*/
+    text-align: center;
+ }
+
+ .workspace {
+    background-color: #fdf5e6;
+    width: 860px;
+    height: 860px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+
+.canvas > div {
+    margin: 44px;
+}
+
+ .color-palette {
+     background-color: plum;
+     width: 220px;
+     height: 350px;
+     margin-top: 15px;
+     padding-top: 5px;
+  }
+
+  .color-selection {
+    width: 216px;
+    height: 120px;
+    border: 2px solid gray;
+
+  }
+  /*CANVAS
+  ******************/
+
+  .canvas {
+      float: right;
+      margin-right: 345px;
+      margin-top: 50px;
+  }
+
+
+  .box {
+     border: 2px solid black;
+     padding: 20px;
+     margin: 0px;
+     margin-top: 30px;
+  }
+
+
+ /**COLOR PALETTE
+ ***************************/
+
+ .color {
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 999px;
+    display: block;
+ }
+
+
+
+
+/*ONCLICK STYLE*******************
+*********************************/
+.red {
+    background-color: red;
+}
+
+.yellow {
+     background-color: yellow;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.white {
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+
+ #red {
+    background-color: red;
+ }
+
+ #yellow {
+    background-color: yellow;
+ }
+
+ #blue {
+    background-color: blue;
+ }
+ #white {
+    background-color: white;
+ }
+
+
+
+
+
+
+
+/* Pseudo Classes (need to add the href atribut)
+------------------------------------*/
+
+nav a {
+    color: gray;
+}
