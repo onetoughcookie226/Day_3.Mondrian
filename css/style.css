@@ -1,26 +1,26 @@
-/********************
-paint a Mondrian
-**********************/
 /*Base style
-------------------------------------*/
+===========================*/
 body {
     background-color: lightgray;
-   /* margin-left: auto;
-    margin-right: auto;*/
     text-align: center;
  }
 
  .workspace {
     background-color: #fdf5e6;
     width: 860px;
-    height: 860px;
+    height: 560px;
     margin-left: auto;
     margin-right: auto;
  }
 
+ .nav-bar {
+     padding-top: 10px ;
+
+ }
 
 .canvas > div {
     margin: 44px;
+    width: 500px;
 }
 
  .color-palette {
@@ -67,8 +67,6 @@ body {
  }
 
 
-
-
 /*ONCLICK STYLE*******************
 *********************************/
 .red {
@@ -87,14 +85,6 @@ body {
     background-color: white;
 }
 
-
-
-
-
-
-
-
-
  #red {
     background-color: red;
  }
@@ -109,12 +99,6 @@ body {
  #white {
     background-color: white;
  }
-
-
-
-
-
-
 
 /* Pseudo Classes (need to add the href atribut)
 ------------------------------------*/
