@@ -18,7 +18,27 @@ body {
 
  }
 
-.canvas > div {
+ #myCanvas{
+     background-color: white;
+     width: 560px;
+     height: 410px;
+     border: 3px black solid;
+     margin: 10px auto;
+     padding: 5px;
+     border-radius: 10px;
+
+ }
+
+
+ #targets a {
+     display: block;
+     float: left;
+     width: 140px;
+     height: 100px;
+     border: 5px black solid;
+ }
+
+.canvas div {
     margin: 44px;
     width: 500px;
 }
@@ -46,7 +66,6 @@ body {
       margin-top: 50px;
   }
 
-
   .box {
      border: 2px solid black;
      padding: 20px;
@@ -54,6 +73,11 @@ body {
      margin-top: 30px;
   }
 
+  .class #row-1-box-1 {
+      width: 140px;
+      height: 100px;
+
+  }
 
  /**COLOR PALETTE
  ***************************/
