@@ -30,33 +30,33 @@ body {
  }
 
 
- #targets a {
-     display: block;
-     float: left;
-     width: 140px;
-     height: 100px;
-     border: 5px black solid;
- }
+ /*#targets a {*/
+     /*display: block;*/
+     /*float: left;*/
+     /*width: 140px;*/
+     /*height: 100px;*/
+     /*border: 5px black solid;*/
+ /*}*/
 
 .canvas div {
     margin: 44px;
     width: 500px;
 }
 
- .color-palette {
-     background-color: plum;
-     width: 220px;
-     height: 350px;
-     margin-top: 15px;
-     padding-top: 5px;
-  }
+ /*.color-palette {*/
+     /*background-color: plum;*/
+     /*width: 220px;*/
+     /*height: 350px;*/
+     /*margin-top: 15px;*/
+     /*padding-top: 5px;*/
+  /*}*/
 
-  .color-selection {
-    width: 216px;
-    height: 120px;
-    border: 2px solid gray;
+  /*.color-selection {*/
+    /*width: 216px;*/
+    /*height: 120px;*/
+    /*border: 2px solid gray;*/
 
-  }
+  /*}*/
   /*CANVAS
   ******************/
 
@@ -82,47 +82,47 @@ body {
  /**COLOR PALETTE
  ***************************/
 
- .color {
-    border: 2px solid black;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 999px;
-    display: block;
- }
+ /*.color {*/
+    /*border: 2px solid black;*/
+    /*margin: 20px;*/
+    /*padding: 20px;*/
+    /*border-radius: 999px;*/
+    /*display: block;*/
+ /*}*/
 
 
 /*ONCLICK STYLE*******************
 *********************************/
-.red {
-    background-color: red;
-}
+/*.red {*/
+    /*background-color: red;*/
+/*}*/
 
-.yellow {
-     background-color: yellow;
-}
+/*.yellow {*/
+     /*background-color: yellow;*/
+/*}*/
 
-.blue {
-    background-color: blue;
-}
+/*.blue {*/
+    /*background-color: blue;*/
+/*}*/
 
-.white {
-    background-color: white;
-}
+/*.white {*/
+    /*background-color: white;*/
+/*}*/
 
- #red {
-    background-color: red;
- }
+ /*#red {*/
+    /*background-color: red;*/
+ /*}*/
 
- #yellow {
-    background-color: yellow;
- }
+ /*#yellow {*/
+    /*background-color: yellow;*/
+ /*}*/
 
- #blue {
-    background-color: blue;
- }
- #white {
-    background-color: white;
- }
+ /*#blue {*/
+    /*background-color: blue;*/
+ /*}*/
+ /*#white {*/
+    /*background-color: white;*/
+ /*}*/
 
 /* Pseudo Classes (need to add the href atribut)
 ------------------------------------*/

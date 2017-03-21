@@ -2,37 +2,23 @@
 <html lan="en">
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Paint a Mondrian</title>
-    <!--<link rel="stylesheet" href="../normalize.css">-->
-
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
         <h1>Pick a color and paint the canvas</h1>
     </header>
-    <content class="container">
-        <div id="myCanvas">
-            <div id="targets">
-                <a>1</a>
-                <a>2</a>
-                <a>3</a>
-                <a>4</a>
-                <a>5</a>
-                <a>6</a>
-                <a>7</a>
-                <a>8</a>
-                <a>9</a>
-                <a>10</a>
-                <a>11</a>
-                <a>12</a>
-                <a>13</a>
-                <a>14</a>
-                <a>15</a>
-                <a>16</a>
-            </div>
-        </div>
-      <!--  <div class="canvas">
+    <content class="container-fluid">
+        <!--<div id="myCanvas">-->
+            <!--<div id="targets">-->
+            <!--</div>-->
+        <!--</div>-->
+        <div class="workspace">
+         <div class="canvas">
             <div id="row-1">
                 <span onclick="paintCanvas('row-1-box-1')" id="row-1-box-1" class="box"></span>
                 <span onclick="paintCanvas('row-1-box-2')" id="row-1-box-2" class="box"></span>
@@ -46,19 +32,19 @@
                 <span onclick="paintCanvas('row-2-box-4')"  id="row-2-box-4" class="box"></span>
             </div>
             <div id="row-3">
-                <span onclick="paintCanvas('row-3-box-1')"  id="row-2-box-1" class="box"></span>
-                <span onclick="paintCanvas('row-3-box-2')"  id="row-2-box-2" class="box"></span>
-                <span onclick="paintCanvas('row-3-box-3')"  id="row-2-box-3" class="box"></span>
-                <span onclick="paintCanvas('row-3-box-4')"  id="row-2-box-4" class="box"></span>
+                <span onclick="paintCanvas('row-3-box-1')"  id="row-3-box-1" class="box"></span>
+                <span onclick="paintCanvas('row-3-box-2')"  id="row-3-box-2" class="box"></span>
+                <span onclick="paintCanvas('row-3-box-3')"  id="row-3-box-3" class="box"></span>
+                <span onclick="paintCanvas('row-3-box-4')"  id="row-3-box-4" class="box"></span>
             </div>
             <div id="row-4">
-                <span onclick="paintCanvas('row-4-box-1')"  id="row-2-box-1" class="box"></span>
-                <span onclick="paintCanvas('row-4-box-2')"  id="row-2-box-2" class="box"></span>
-                <span onclick="paintCanvas('row-4-box-3')"  id="row-2-box-3" class="box"></span>
-                <span onclick="paintCanvas('row-4-box-4')"  id="row-2-box-4" class="box"></span>
+                <span onclick="paintCanvas('row-4-box-1')"  id="row-4-box-1" class="box"></span>
+                <span onclick="paintCanvas('row-4-box-2')"  id="row-4-box-2" class="box"></span>
+                <span onclick="paintCanvas('row-4-box-3')"  id="row-4-box-3" class="box"></span>
+                <span onclick="paintCanvas('row-4-box-4')"  id="row-4-box-4" class="box"></span>
             </div>
-        </div>-->
-        <div class="workspace">
+        </div>
+
             <div id="sel" class="color-palette">
                 <a href="#" id="red" class="color" onclick="selectColor('red')" ></a>
                 <a href="#" id="yellow" class="color" onclick="selectColor('yellow')"></a>
@@ -76,7 +62,7 @@
             <a href="../Blog/index.html">Blog</a>
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-        <script src="mondrian.js"></script>
+        <!--<script src="mondrian.js"></script>-->
 
     </footer>
 
