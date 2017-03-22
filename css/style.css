@@ -5,12 +5,24 @@ body {
     text-align: center;
  }
 
- .workspace {
-    background-color: #fdf5e6;
-    width: 860px;
-    height: 560px;
-    margin-left: auto;
+.workspace {
     margin-right: auto;
+    margin-left: auto;
+    max-width: 775px;
+}
+.color-palette {
+    background-color: plum;
+    /*width: 220px;*/
+    height: 570px;
+    /*margin-top: 15px;*/
+    /*padding-top: 5px;*/
+}
+ .canvas {
+    background-color: #fdf5e6;
+    /*width: 860px;*/
+    height: 570px;
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
  }
 
  .nav-bar {
@@ -18,16 +30,16 @@ body {
 
  }
 
- #myCanvas{
-     background-color: white;
-     width: 702px;
-     height: 502px;
-     border: 3px black solid;
-     margin: 10px auto;
-     padding: 5px;
-     border-radius: 10px;
+ /*#myCanvas{*/
+     /*background-color: white;*/
+     /*width: 702px;*/
+     /*height: 502px;*/
+     /*border: 3px black solid;*/
+     /*margin: 10px auto;*/
+     /*padding: 5px;*/
+     /*border-radius: 10px;*/
 
- }
+ /*}*/
 
 
  /*#targets a {*/
@@ -38,18 +50,12 @@ body {
      /*border: 5px black solid;*/
  /*}*/
 
-.canvas div {
-    margin: 44px;
-    width: 500px;
-}
+/*.canvas div {*/
+    /*margin: 44px;*/
+    /*width: 500px;*/
+/*}*/
 
- /*.color-palette {*/
-     /*background-color: plum;*/
-     /*width: 220px;*/
-     /*height: 350px;*/
-     /*margin-top: 15px;*/
-     /*padding-top: 5px;*/
-  /*}*/
+
 
   /*.color-selection {*/
     /*width: 216px;*/
@@ -60,24 +66,24 @@ body {
   /*CANVAS
   ******************/
 
-  .canvas {
-      float: right;
-      margin-right: 345px;
-      margin-top: 50px;
-  }
+  /*.canvas {*/
+      /*float: right;*/
+      /*margin-right: 345px;*/
+      /*margin-top: 50px;*/
+  /*}*/
 
-  .box {
-     border: 2px solid black;
-     padding: 20px;
-     margin: 0px;
-     margin-top: 30px;
-  }
+  /*.box {*/
+     /*border: 2px solid black;*/
+     /*padding: 20px;*/
+     /*margin: 0px;*/
+     /*margin-top: 30px;*/
+  /*}*/
 
-  .class #row-1-box-1 {
-      width: 140px;
-      height: 100px;
+  /*.class #row-1-box-1 {*/
+      /*width: 140px;*/
+      /*height: 100px;*/
 
-  }
+  /*}*/
 
  /**COLOR PALETTE
  ***************************/
@@ -127,6 +133,6 @@ body {
 /* Pseudo Classes (need to add the href atribut)
 ------------------------------------*/
 
-nav a {
-    color: gray;
-}
+/*nav a {*/
+    /*color: gray;*/
+/*}*/

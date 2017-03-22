@@ -12,50 +12,60 @@
     <header>
         <h1>Pick a color and paint the canvas</h1>
     </header>
-    <content class="container-fluid">
-        <!--<div id="myCanvas">-->
-            <!--<div id="targets">-->
-            <!--</div>-->
-        <!--</div>-->
-        <div class="workspace">
-         <div class="canvas">
-            <div id="row-1">
-                <span onclick="paintCanvas('row-1-box-1')" id="row-1-box-1" class="box"></span>
-                <span onclick="paintCanvas('row-1-box-2')" id="row-1-box-2" class="box"></span>
-                <span onclick="paintCanvas('row-1-box-3')" id="row-1-box-3" class="box"></span>
-                <span onclick="paintCanvas('row-1-box-4')" id="row-1-box-4" class="box"></span>
-            </div>
-            <div id="row-2">
-                <span onclick="paintCanvas('row-2-box-1')"  id="row-2-box-1" class="box"></span>
-                <span onclick="paintCanvas('row-2-box-2')"  id="row-2-box-2" class="box"></span>
-                <span onclick="paintCanvas('row-2-box-3')"  id="row-2-box-3" class="box"></span>
-                <span onclick="paintCanvas('row-2-box-4')"  id="row-2-box-4" class="box"></span>
-            </div>
-            <div id="row-3">
-                <span onclick="paintCanvas('row-3-box-1')"  id="row-3-box-1" class="box"></span>
-                <span onclick="paintCanvas('row-3-box-2')"  id="row-3-box-2" class="box"></span>
-                <span onclick="paintCanvas('row-3-box-3')"  id="row-3-box-3" class="box"></span>
-                <span onclick="paintCanvas('row-3-box-4')"  id="row-3-box-4" class="box"></span>
-            </div>
-            <div id="row-4">
-                <span onclick="paintCanvas('row-4-box-1')"  id="row-4-box-1" class="box"></span>
-                <span onclick="paintCanvas('row-4-box-2')"  id="row-4-box-2" class="box"></span>
-                <span onclick="paintCanvas('row-4-box-3')"  id="row-4-box-3" class="box"></span>
-                <span onclick="paintCanvas('row-4-box-4')"  id="row-4-box-4" class="box"></span>
-            </div>
+    <content class="container">
+        <div class="row workspace">
+
+           <div class="col-xs-12 workspace">
+
+               <div class="row">
+                   <div class="col-xs-2 col-md-2 color-palette">palette</div>
+                   <div class="col-xs-10 col-md-10 canvas">canvas</div>
+               </div>
+           </div>
         </div>
 
-            <div id="sel" class="color-palette">
-                <a href="#" id="red" class="color" onclick="selectColor('red')" ></a>
-                <a href="#" id="yellow" class="color" onclick="selectColor('yellow')"></a>
-                <a href="#" id="blue" class="color"  onclick="selectColor('blue')"></a>
-                <a href="#" id="white" class="color" onclick="selectColor('white')"></a>
-            </div>
-            <div id="color-selection" class="color-selection">
-                <p>Current Color Selection</p>
-            </div>
-        </div>
     </content>
+
+
+
+        <!--<div class="workspace">-->
+         <!--<div class="canvas">-->
+            <!--<div id="row-1">-->
+                <!--<span onclick="paintCanvas('row-1-box-1')" id="row-1-box-1" class="box"></span>-->
+                <!--<span onclick="paintCanvas('row-1-box-2')" id="row-1-box-2" class="box"></span>-->
+                <!--<span onclick="paintCanvas('row-1-box-3')" id="row-1-box-3" class="box"></span>-->
+                <!--<span onclick="paintCanvas('row-1-box-4')" id="row-1-box-4" class="box"></span>-->
+            <!--</div>-->
+            <!--<div id="row-2">-->
+                <!--<span onclick="paintCanvas('row-2-box-1')"  id="row-2-box-1" class="box"></span>-->
+                <!--<span onclick="paintCanvas('row-2-box-2')"  id="row-2-box-2" class="box"></span>-->
+                <!--<span onclick="paintCanvas('row-2-box-3')"  id="row-2-box-3" class="box"></span>-->
+                <!--<span onclick="paintCanvas('row-2-box-4')"  id="row-2-box-4" class="box"></span>-->
+            <!--</div>-->
+            <!--<div id="row-3">-->
+                <!--<span onclick="paintCanvas('row-3-box-1')"  id="row-3-box-1" class="box"></span>-->
+                <!--<span onclick="paintCanvas('row-3-box-2')"  id="row-3-box-2" class="box"></span>-->
+                <!--<span onclick="paintCanvas('row-3-box-3')"  id="row-3-box-3" class="box"></span>-->
+                <!--<span onclick="paintCanvas('row-3-box-4')"  id="row-3-box-4" class="box"></span>-->
+            <!--</div>-->
+            <!--<div id="row-4">-->
+                <!--<span onclick="paintCanvas('row-4-box-1')"  id="row-4-box-1" class="box"></span>-->
+                <!--<span onclick="paintCanvas('row-4-box-2')"  id="row-4-box-2" class="box"></span>-->
+                <!--<span onclick="paintCanvas('row-4-box-3')"  id="row-4-box-3" class="box"></span>-->
+                <!--<span onclick="paintCanvas('row-4-box-4')"  id="row-4-box-4" class="box"></span>-->
+            <!--</div>-->
+        <!--</div>-->
+
+            <!--<div id="sel" class="color-palette">-->
+                <!--<a href="#" id="red" class="color" onclick="selectColor('red')" ></a>-->
+                <!--<a href="#" id="yellow" class="color" onclick="selectColor('yellow')"></a>-->
+                <!--<a href="#" id="blue" class="color"  onclick="selectColor('blue')"></a>-->
+                <!--<a href="#" id="white" class="color" onclick="selectColor('white')"></a>-->
+            <!--</div>-->
+            <!--<div id="color-selection" class="color-selection">-->
+                <!--<p>Current Color Selection</p>-->
+            <!--</div>-->
+        <!--</div>-->
     <footer>
         <div class="nav-bar">
             <a href="#">Home</a>
@@ -63,7 +73,6 @@
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
         <!--<script src="mondrian.js"></script>-->
-
     </footer>
 
 </body>
