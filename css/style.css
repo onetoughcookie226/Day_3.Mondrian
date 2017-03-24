@@ -8,15 +8,23 @@ body {
      font-family: 'Raleway', sans-serif;
  }
 
+ .border {
+     max-width: 917px;
+     border: 2px solid black;
+     margin-right: auto;
+     margin-left: auto;
+ }
+
 .workspace {
     margin-right: auto;
     margin-left: auto;
     max-width: 900px;
     padding-top: 25px;
+    padding-bottom: 20px;
 }
 /**PALETTE**************************/
 .palette {
-    background-color: lightgray;
+    background-color: moccasin;
     height: 500px;
 }
 ul {
