@@ -2,14 +2,12 @@
 //the previous selection can be stored
 //so we can use it in painCanvas function.
 
-
 $(document).ready(function () {
     //
     // var paint = "white"
     //
 
     $(".color").on("click", function () {
-        console.log("Hello");
         //
         // paint = $(this).css('background-color');
     })
